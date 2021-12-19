@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{0701B1D7-35E8-4D13-9E09-1808485D952C}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numerics-mkl-net50", "numerics-mkl-net50.csproj", "{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B283781-F419-43E8-8545-DCF7AF1E2FCD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+source https://api.nuget.org/v3/index.json
+
+nuget MathNet.Numerics 5.0.0-alpha03 prerelease
+nuget MathNet.Numerics.MKL.Win 2.6.0-beta2 prerelease
