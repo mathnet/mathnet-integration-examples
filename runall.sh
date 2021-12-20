@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 for solution in ./**/*.sln; do
 	DIR="$(dirname "${solution}")" ; FILE="$(basename "${solution}")"
@@ -8,7 +8,7 @@ for solution in ./**/*.sln; do
 	if [[ $DIR == *"legacy"* ]]; then
 		echo "Legacy Style Project: skipped, please build run manually"
 	else
-		[[ -f ".config/donet-tools.json" ]] && dotnet tool restore
+		dotnet tool restore
 		dotnet run
 	fi
 	popd
