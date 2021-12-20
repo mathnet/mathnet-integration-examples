@@ -5,6 +5,11 @@ for solution in ./**/*.sln; do
 	echo ""
 	echo "Solution $FILE in $DIR:"
 	pushd "$DIR"
-	dotnet run
+	if [[ $DIR == *"legacy"* ]]; then
+		echo "Legacy Style Project: skipped, please build run manually"
+	else
+		[[ -f ".config/donet-tools.json" ]] && dotnet tool restore
+		dotnet run
+	fi
 	popd
 done

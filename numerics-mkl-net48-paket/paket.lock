@@ -1,9 +1,11 @@
+RESTRICTION: == net48
 NUGET
   remote: https://api.nuget.org/v3/index.json
     MathNet.Numerics (5.0.0-alpha07)
-      System.ValueTuple (>= 4.5) - restriction: && (>= net461) (< net48)
     MathNet.Numerics.MKL.Win (2.6.0-beta3)
       MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha03)
     MathNet.Numerics.Providers.MKL (5.0.0-alpha07)
-      MathNet.Numerics (>= 5.0.0-alpha07) - restriction: || (>= net461) (>= netstandard2.0)
-    System.ValueTuple (4.5) - restriction: && (>= net461) (< net48)
+      MathNet.Numerics (>= 5.0.0-alpha07)
+    Microsoft.NETFramework.ReferenceAssemblies (1.0.2)
+      Microsoft.NETFramework.ReferenceAssemblies.net48 (>= 1.0.2)
+    Microsoft.NETFramework.ReferenceAssemblies.net48 (1.0.2)

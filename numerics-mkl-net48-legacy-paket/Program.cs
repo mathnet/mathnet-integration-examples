@@ -8,6 +8,7 @@ namespace numerics_mkl_net48
         static void Main(string[] args)
         {
             Console.WriteLine(Control.Describe());
+            Console.ReadKey();
         }
     }
 }
