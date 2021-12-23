@@ -53,13 +53,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MathNet.Numerics">
-      <Version>5.0.0-alpha07</Version>
+      <Version>5.0.0-alpha08</Version>
     </PackageReference>
     <PackageReference Include="MathNet.Numerics.MKL.Win">
-      <Version>2.6.0-beta3</Version>
+      <Version>3.0.0-beta1</Version>
     </PackageReference>
     <PackageReference Include="MathNet.Numerics.Providers.MKL">
-      <Version>5.0.0-alpha07</Version>
+      <Version>5.0.0-alpha08</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
