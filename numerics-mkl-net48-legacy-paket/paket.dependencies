@@ -1,4 +1,5 @@
 source https://api.nuget.org/v3/index.json
+framework: net48
 
 nuget MathNet.Numerics prerelease
 nuget MathNet.Numerics.MKL.Win prerelease

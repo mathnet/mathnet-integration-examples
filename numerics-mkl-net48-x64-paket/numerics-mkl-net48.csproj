@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net48</TargetFramework>
+		<RuntimeIdentifiers>win</RuntimeIdentifiers>
+		<RootNamespace>numerics_mkl_net48</RootNamespace>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+	<Import Project=".paket\Paket.Restore.targets" />
+</Project>
