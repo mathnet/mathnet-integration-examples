@@ -3,5 +3,6 @@ framework: net48
 storage: none
 
 nuget MathNet.Numerics prerelease
-nuget MathNet.Numerics.MKL.Win prerelease
+nuget MathNet.Numerics.MKL.Win-x86 prerelease
+nuget MathNet.Numerics.MKL.Linux-x86 prerelease
 nuget Microsoft.NETFramework.ReferenceAssemblies

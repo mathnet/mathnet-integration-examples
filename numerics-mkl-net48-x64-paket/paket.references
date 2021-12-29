@@ -1,3 +1,4 @@
 MathNet.Numerics
-MathNet.Numerics.MKL.Win
+MathNet.Numerics.MKL.Win-x64
+MathNet.Numerics.MKL.Linux-x64
 Microsoft.NETFramework.ReferenceAssemblies copy_local:false

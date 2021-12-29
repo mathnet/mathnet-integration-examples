@@ -3,7 +3,8 @@ RESTRICTION: == net48
 NUGET
   remote: https://api.nuget.org/v3/index.json
     MathNet.Numerics (5.0.0-alpha08)
-    MathNet.Numerics.MKL.Win (3.0.0-beta2)
+    MathNet.Numerics.MKL.Linux-x64 (2.0)
+    MathNet.Numerics.MKL.Win-x64 (3.0.0-beta2)
       MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha08)
     MathNet.Numerics.Providers.MKL (5.0.0-alpha08)
       MathNet.Numerics (>= 5.0.0-alpha08)

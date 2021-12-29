@@ -4,4 +4,5 @@ storage: none
 
 nuget MathNet.Numerics prerelease
 nuget MathNet.Numerics.MKL.Win prerelease
+nuget MathNet.Numerics.MKL.Linux prerelease
 nuget Microsoft.NETFramework.ReferenceAssemblies
