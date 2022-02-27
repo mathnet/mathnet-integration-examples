@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numerics-mkl-net50", "numerics-mkl-net50.csproj", "{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numerics-mkl-net50-x86", "numerics-mkl-net50-x86.csproj", "{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

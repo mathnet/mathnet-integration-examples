@@ -10,9 +10,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MathNet.Numerics" Version="5.0.0-alpha10" />
+		<PackageReference Include="MathNet.Numerics" Version="5.0.0-alpha16" />
 		<PackageReference Include="MathNet.Numerics.OpenBLAS.Win" Version="0.3.0-beta1" />
-		<PackageReference Include="MathNet.Numerics.Providers.OpenBLAS" Version="5.0.0-alpha10" />
+		<PackageReference Include="MathNet.Numerics.Providers.OpenBLAS" Version="5.0.0-alpha16" />
 	</ItemGroup>
 
 </Project>

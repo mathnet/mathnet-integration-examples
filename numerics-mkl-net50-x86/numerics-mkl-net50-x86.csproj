@@ -9,10 +9,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MathNet.Numerics" Version="5.0.0-alpha10" />
+		<PackageReference Include="MathNet.Numerics" Version="5.0.0-alpha16" />
 		<PackageReference Include="MathNet.Numerics.MKL.Linux-x86" Version="3.0.0-beta3" />
 		<PackageReference Include="MathNet.Numerics.MKL.Win-x86" Version="3.0.0-beta3" />
-		<PackageReference Include="MathNet.Numerics.Providers.MKL" Version="5.0.0-alpha10" />
+		<PackageReference Include="MathNet.Numerics.Providers.MKL" Version="5.0.0-alpha16" />
 	</ItemGroup>
 
 </Project>

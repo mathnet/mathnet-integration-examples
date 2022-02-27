@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{0701B1
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numerics-mkl-net50", "numerics-mkl-net50.csproj", "{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "numerics-mkl-net50-paket", "numerics-mkl-net50-paket.csproj", "{1EBE2A52-03FE-4BB4-BF68-08C200FD3749}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
