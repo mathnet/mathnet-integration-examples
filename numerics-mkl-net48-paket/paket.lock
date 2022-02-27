@@ -2,12 +2,13 @@ STORAGE: NONE
 RESTRICTION: == net48
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    MathNet.Numerics (5.0.0-alpha08)
-    MathNet.Numerics.MKL.Linux (2.0)
-    MathNet.Numerics.MKL.Win (3.0.0-beta2)
-      MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha08)
-    MathNet.Numerics.Providers.MKL (5.0.0-alpha08)
-      MathNet.Numerics (>= 5.0.0-alpha08)
+    MathNet.Numerics (5.0.0-alpha10)
+    MathNet.Numerics.MKL.Linux (3.0.0-beta3)
+      MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha10)
+    MathNet.Numerics.MKL.Win (3.0.0-beta3)
+      MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha10)
+    MathNet.Numerics.Providers.MKL (5.0.0-alpha10)
+      MathNet.Numerics (>= 5.0.0-alpha10)
     Microsoft.NETFramework.ReferenceAssemblies (1.0.2)
       Microsoft.NETFramework.ReferenceAssemblies.net48 (>= 1.0.2)
     Microsoft.NETFramework.ReferenceAssemblies.net48 (1.0.2)
