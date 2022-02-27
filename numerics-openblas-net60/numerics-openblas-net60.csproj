@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<RuntimeIdentifiers>win</RuntimeIdentifiers>
+		<RootNamespace>numerics_openblas_net60</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MathNet.Numerics" Version="5.0.0-alpha10" />
+		<PackageReference Include="MathNet.Numerics.OpenBLAS.Win" Version="0.3.0-beta1" />
+		<PackageReference Include="MathNet.Numerics.Providers.OpenBLAS" Version="5.0.0-alpha10" />
+	</ItemGroup>
+
+</Project>
