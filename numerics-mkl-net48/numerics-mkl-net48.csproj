@@ -9,10 +9,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MathNet.Numerics" Version="5.0.0-alpha16" />
+		<PackageReference Include="MathNet.Numerics" Version="5.0.0" />
 		<PackageReference Include="MathNet.Numerics.MKL.Linux" Version="3.0.0-beta3" />
-		<PackageReference Include="MathNet.Numerics.MKL.Win" Version="3.0.0-beta3" />
-		<PackageReference Include="MathNet.Numerics.Providers.MKL" Version="5.0.0-alpha16" />
+		<PackageReference Include="MathNet.Numerics.MKL.Win" Version="3.0.0" />
+		<PackageReference Include="MathNet.Numerics.Providers.MKL" Version="5.0.0" />
 		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -1,12 +1,12 @@
 STORAGE: NONE
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    MathNet.Numerics (5.0.0-alpha16)
+    MathNet.Numerics (5.0)
       System.ValueTuple (>= 4.4) - restriction: && (>= net461) (< net48)
     MathNet.Numerics.MKL.Linux (3.0.0-beta3)
       MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha10)
-    MathNet.Numerics.MKL.Win (3.0.0-beta3)
-      MathNet.Numerics.Providers.MKL (>= 5.0.0-alpha10)
-    MathNet.Numerics.Providers.MKL (5.0.0-alpha16)
-      MathNet.Numerics (>= 5.0.0-alpha16) - restriction: || (>= net461) (>= netstandard2.0)
+    MathNet.Numerics.MKL.Win (3.0)
+      MathNet.Numerics.Providers.MKL (>= 5.0)
+    MathNet.Numerics.Providers.MKL (5.0)
+      MathNet.Numerics (>= 5.0) - restriction: || (>= net461) (>= netstandard2.0)
     System.ValueTuple (4.5) - restriction: && (>= net461) (< net48)
